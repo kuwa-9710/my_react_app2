@@ -1,9 +1,9 @@
 const style = {
   height: "50px",
-  backgroundColor: "lightgray"
+  backgroundColor: "lightgray",
 };
 
-export const Child2 = () => {
+export const Child2 = memo(() => {
   console.log("Child2レンダリング");
 
   return (
@@ -11,4 +11,4 @@ export const Child2 = () => {
       <p>Child2</p>
     </div>
   );
-};
+});
