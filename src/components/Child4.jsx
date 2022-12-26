@@ -1,10 +1,10 @@
 const style = {
   height: "50px",
   backgroundColor: "wheat",
-  padding: "8px"
+  padding: "8px",
 };
 
-export const Child4 = () => {
+export const Child4 = memo(() => {
   console.log("Child4レンダリング");
 
   return (
@@ -12,4 +12,4 @@ export const Child4 = () => {
       <p>Child4</p>
     </div>
   );
-};
+});
